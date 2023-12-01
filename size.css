@@ -1,0 +1,12 @@
+.container{
+    background: lightblue;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 100px 100px;
+}
+.grid-items{
+    background: blue;
+    width: 100px;
+
+
+}

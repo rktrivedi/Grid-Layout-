@@ -1,0 +1,18 @@
+/* Chess Board Style */
+ .container {
+    width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.white {
+  height: 100px;
+  width: 100px;
+  background: rgb(18, 18, 15);
+}
+.black {
+  height: 100px;
+  width: 100px;
+  background: rgb(198, 198, 198);
+} 
